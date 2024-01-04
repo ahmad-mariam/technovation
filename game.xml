@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/game"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8DB7D6">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="207dp"
+        android:layout_height="70dp"
+        android:fontFamily="@font/andada"
+        android:text="GAMES"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.154" />
+
+    <Button
+        android:id="@+id/ticButton"
+        android:layout_width="373dp"
+        android:layout_height="156dp"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/andada"
+        android:text="Tic-Tac-Toe"
+        android:textColor="#909FEC"
+        android:textColorLink="#FFFFFF"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.419" />
+
+    <Button
+        android:id="@+id/memoryButton"
+        android:layout_width="373dp"
+        android:layout_height="156dp"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/andada"
+        android:text="Memory"
+        android:textColor="#909FEC"
+        android:textColorLink="#FFFFFF"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.706" />
+
+    <Button
+        android:id="@+id/colorsButton"
+        android:layout_width="373dp"
+        android:layout_height="156dp"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/andada"
+        android:text="Colors"
+        android:textColor="#909FEC"
+        android:textColorLink="#FFFFFF"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.989" />
+
+    <Button
+        android:id="@+id/homeButtonG"
+        android:layout_width="124dp"
+        android:layout_height="59dp"
+        android:backgroundTint="#569C5C"
+        android:fontFamily="@font/andada"
+        android:text="HOME"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
